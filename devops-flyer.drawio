@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-05-30T08:05:13.420Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="OTm4JMVEJY5CEhCUSg1H" version="21.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2023-05-30T09:08:43.218Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="CD5-8TcXTpUmYl-m5iU-" version="21.3.5" type="github">
   <diagram name="Page-1" id="NJWRTCUTUIe2FUOjqVV5">
     <mxGraphModel dx="1434" dy="779" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -26,7 +26,17 @@
           <mxGeometry y="60" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="UYuHHMGHRkEHkqmn_p5M-37" value="" style="group" parent="1" vertex="1" connectable="0">
-          <mxGeometry x="590" y="440" width="120" height="102.2" as="geometry" />
+          <mxGeometry x="590" y="437.8" width="120" height="102.2" as="geometry" />
+        </mxCell>
+        <mxCell id="X5jVL2zJd6UNloHixfY--40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;" edge="1" parent="UYuHHMGHRkEHkqmn_p5M-37" source="UYuHHMGHRkEHkqmn_p5M-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="30.82499999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X5jVL2zJd6UNloHixfY--41" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Package&lt;br&gt;Deployment&lt;br&gt;through&lt;br&gt;Tunnel VPN&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X5jVL2zJd6UNloHixfY--40">
+          <mxGeometry x="-0.0866" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="UYuHHMGHRkEHkqmn_p5M-34" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://logos-download.com/wp-content/uploads/2016/10/Ansible_logo.png;" parent="UYuHHMGHRkEHkqmn_p5M-37" vertex="1">
           <mxGeometry x="27.10499999999999" width="61.5975" height="61.650000000000006" as="geometry" />
@@ -125,20 +135,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="X5jVL2zJd6UNloHixfY--20" value="" style="curved=1;endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=12 12;" edge="1" parent="1" source="UYuHHMGHRkEHkqmn_p5M-34" target="X5jVL2zJd6UNloHixfY--18">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="88.70249999999999" y="80.82499999999999" as="sourcePoint" />
-            <mxPoint x="749.4131781186547" y="470.825" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="760" y="440" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="X5jVL2zJd6UNloHixfY--21" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Package&lt;br&gt;Deployment&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="X5jVL2zJd6UNloHixfY--20">
-          <mxGeometry x="0.0102" y="-2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="X5jVL2zJd6UNloHixfY--25" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="1210" y="395.98999999999995" width="120" height="144.01" as="geometry" />
         </mxCell>
@@ -149,19 +145,18 @@
           <mxGeometry y="116.68379679144385" width="120" height="27.326203208556155" as="geometry" />
         </mxCell>
         <mxCell id="X5jVL2zJd6UNloHixfY--26" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="910" y="408.12" width="198.1300000000001" height="119.75" as="geometry" />
+          <mxGeometry x="910" y="420.25" width="198.1300000000001" height="119.75" as="geometry" />
+        </mxCell>
+        <mxCell id="X5jVL2zJd6UNloHixfY--38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="X5jVL2zJd6UNloHixfY--26" source="X5jVL2zJd6UNloHixfY--18">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="46.210000000000036" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="X5jVL2zJd6UNloHixfY--18" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://o.remove.bg/downloads/ea237db8-9689-4ea7-8288-fb5fd37b9529/kisspng-intel-core-i7-next-unit-of-computing-intel-nuc-nuc-5b0ddf6feb9b32.8523287215276358239651-removebg-preview.png;" vertex="1" parent="X5jVL2zJd6UNloHixfY--26">
           <mxGeometry width="198.13" height="92.42" as="geometry" />
         </mxCell>
         <mxCell id="X5jVL2zJd6UNloHixfY--23" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Client NUC&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="X5jVL2zJd6UNloHixfY--26">
           <mxGeometry x="49.999999999999886" y="92.4237967914438" width="120" height="27.326203208556155" as="geometry" />
-        </mxCell>
-        <mxCell id="X5jVL2zJd6UNloHixfY--27" value="" style="curved=1;endArrow=classic;html=1;rounded=0;dashed=1;dashPattern=8 8;" edge="1" parent="1" source="X5jVL2zJd6UNloHixfY--18" target="X5jVL2zJd6UNloHixfY--22">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="198.13" y="96.21000000000004" as="sourcePoint" />
-            <mxPoint x="1178.8406781186548" y="455.44" as="targetPoint" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="X5jVL2zJd6UNloHixfY--31" value="" style="group" vertex="1" connectable="0" parent="1">
           <mxGeometry x="570" y="625" width="120" height="60" as="geometry" />
